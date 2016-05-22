@@ -11,4 +11,4 @@ Please look here <http://maogm.com/colorize-language-in-vscode>
 
 # ScreenShot
 
-![ScreenShot](./screenshot.png)
+![ScreenShot](https://raw.githubusercontent.com/Garnel/language-cool/master/screenshot.png)
