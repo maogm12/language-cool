@@ -1,0 +1,26 @@
+{
+    "name": "cool",
+    "displayName": "language-cool",
+    "description": "Cool (Classroom Object Oriented Language) language support for vscode",
+    "version": "0.0.1",
+    "publisher": "maoguangming",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cool",
+            "aliases": ["COOL", "cool"],
+            "extensions": [".cl"],
+            "configuration": "./cool.configuration.json"
+        }],
+        "grammars": [{
+            "language": "cool",
+            "scopeName": "source.cool",
+            "path": "./syntaxes/cool.json"
+        }]
+    }
+}
