@@ -80,6 +80,9 @@
           "include": "#block"
         },
         {
+          "include": "#builtins"
+        },
+        {
           "include": "#class"
         },
         {
