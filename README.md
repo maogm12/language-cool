@@ -7,7 +7,7 @@ small language designed for use in an undergraduate compiler course project.
 
 # About VSCode Language Syntax
 
-Please look here <http://maogm.com/colorize-language-in-vscode>
+Please look here <http://maogm.com/blog/colorize-language-in-vscode.html>
 
 # ScreenShot
 
