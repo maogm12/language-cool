@@ -104,6 +104,11 @@
       "end": "$\\n?",
       "name": "comment.line.double-dash.cool"
     },
+		"sharp_comment": {
+      "begin": "#",
+      "end": "$\\n?",
+      "name": "comment.line.sharp.cool"
+    },
     "block_comment": {
       "begin": "\\(\\*",
       "end": "\\*\\)\\n?",
@@ -119,6 +124,9 @@
         {
           "include": "#line_comment"
         },
+				{
+          "include": "#sharp_comment"
+        },
         {
           "include": "#block_comment"
         }
@@ -131,7 +139,7 @@
           "name": "constant.language.cool"
         },
         {
-          "match": "\\b([1-9][0-9]*)\\b",
+          "match": "\\b([1-9][0-9]*|0)\\b",
           "name": "constant.numeric.cool"
         },
         {
@@ -140,7 +148,7 @@
           "name": "string.quoted.double.cool",
           "patterns": [
             {
-              "match": "\\\\(n|t)",
+              "match": "\\\\(n|t|b|c|v|f|r)",
               "name": "constant.character.escape.cool"
             }
           ]
@@ -154,7 +162,7 @@
           "name": "keyword.control.cool"
         },
         {
-          "match": "\\b(in|inherits|isvoid|let|new|of|new|not)\\b",
+          "match": "\\b(in|inherits|isvoid|let|new|of|not)\\b",
           "name": "keyword.operator.cool"
         }
       ]
