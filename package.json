@@ -14,7 +14,7 @@
         "languages": [{
             "id": "cool",
             "aliases": ["COOL", "cool"],
-            "extensions": [".cl"],
+            "extensions": [".cl", ".cool"],
             "configuration": "./cool.configuration.json"
         }],
         "grammars": [{
